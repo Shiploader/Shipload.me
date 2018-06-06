@@ -1,0 +1,19 @@
+.background {
+    background: #87e0fd; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #87e0fd 0%, #59d2ff 59%, #05abe0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #87e0fd 0%,#59d2ff 59%,#05abe0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #87e0fd 0%,#59d2ff 59%,#05abe0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.shiploaderbtn {
+    border-radius: 0px 0px 15px 15px;
+    transition: 0.2s;
+    margin-left: 10px;
+    padding: 5px -5px;
+    background-color: #00000033;
+    color: white;
+}
+.shiploaderbtn:hover{
+    background-color: white;
+}
